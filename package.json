@@ -1,0 +1,33 @@
+{
+  "name": "mytheme",
+  "version": "1.0.0",
+  "description": "The first wordpress theme from scratch",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frageno/firsttheme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frageno/firsttheme/issues"
+  },
+  "homepage": "https://github.com/frageno/firsttheme#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/register": "^7.16.5",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.45.0",
+    "yargs": "^17.3.0"
+  }
+}
