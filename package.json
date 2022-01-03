@@ -2,12 +2,13 @@
   "name": "mytheme",
   "version": "1.0.0",
   "description": "The first wordpress theme from scratch",
-  "main": "index.js",
+  "type": "module",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "build": "gulp build --prod"
   },
   "repository": {
     "type": "git",
@@ -23,11 +24,17 @@
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
     "@babel/register": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
     "sass": "^1.45.0",
+    "webpack-stream": "^7.0.0",
     "yargs": "^17.3.0"
   }
 }
